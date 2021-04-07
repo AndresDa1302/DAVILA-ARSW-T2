@@ -5,10 +5,16 @@
  */
 package edu.eci.arsw.api;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 /**
  *
  * @author Andres Davila
  */
+@SpringBootApplication
 public class IweatherApi {
-    
+    public static void main(String[] args) {
+		SpringApplication.run(IweatherApi.class, args);
+	}
 }

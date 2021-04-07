@@ -13,6 +13,8 @@ import com.mashape.unirest.http.exceptions.UnirestException;
 
 import java.util.ArrayList;
 import java.util.List;
+import static junit.framework.Assert.assertEquals;
+import static junit.framework.Assert.assertNotNull;
 
 public class UnirestTest {
 
