@@ -5,10 +5,12 @@
  */
 package edu.eci.arsw.services;
 
+import edu.eci.arsw.model.Iweather;
+
 /**
  *
  * @author Andres Davila
  */
 public interface IweatherService {
-    
+    public Iweather buscarPorCiudad(String city);
 }

@@ -5,10 +5,25 @@
  */
 package edu.eci.arsw.services.imp;
 
+import edu.eci.arsw.model.Iweather;
+import edu.eci.arsw.services.IweatherService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 /**
  *
  * @author Andres Davila
  */
-public class IweatherServiceImp {
+@Service
+public class IweatherServiceImp implements IweatherService{
+    
+
+    @Override
+    public Iweather buscarPorCiudad(String city) {
+        return null;
+        
+        
+        
+    }
     
 }
